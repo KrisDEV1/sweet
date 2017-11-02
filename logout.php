@@ -6,7 +6,7 @@ $data['is_active'] = false;
 
 
 $helper = $fb->getRedirectLoginHelper();
-$url = $helper->getLogoutUrl($_SESSION['fb_access_token'], 'http://kristiannikolic.com/sweethearts');
+$url = $helper->getLogoutUrl($_SESSION['fb_access_token'], 'http://kristiannikolic.com/sweetheart');
 
 session_destroy();
 
